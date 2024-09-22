@@ -4,6 +4,6 @@ def is_palindrome(s):
     while left < right:
         if s[left] != s[right]:
             return False
-        left = left + 1
-        right = right - 1
+        left += 1
+        right -= 1
     return True
